@@ -11,6 +11,12 @@ export class ContadorComponent {
 
   numero:number = 0;
 
+  constructor() {
+    setInterval(() => {
+      this.numero += 1;
+    }, 1000);
+  }
+
   incre(){
     this.numero++;
   }
