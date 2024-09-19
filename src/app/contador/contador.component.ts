@@ -24,4 +24,7 @@ export class ContadorComponent {
   decre(){
     this.numero --;
   }
+
+  Lista = ['Manzana', 'Banana', 'Cereza', 'Dátil'];
+  
 }

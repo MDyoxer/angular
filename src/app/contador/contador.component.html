@@ -6,4 +6,10 @@
     <button (click)="incre()" id="increase" class="btn">Incrementar</button>
     <button (click)="decre()" id="decrease" class="btn">Decrementar</button>
 </div>
+<!--Lista-->
+<div class="counter-container">
+    <ul>
+        <li *ngFor="let lista of Lista; index as i; trackBy: trackByFn">{{lista}}</li>          </ul>
+       
+</div>
 </section>
