@@ -1,9 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contador',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './contador.component.html',
   styleUrl: './contador.component.css'
 })
